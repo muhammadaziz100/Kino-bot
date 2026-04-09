@@ -1,0 +1,23 @@
+{
+  "name": "pro-kino-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram kino qidiruv va majburiy obuna boti",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "kino"
+  ],
+  "author": "Sizning Ismingiz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.65.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
